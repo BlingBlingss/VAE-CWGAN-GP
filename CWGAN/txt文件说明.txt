@@ -1,0 +1,6 @@
+1.train_data10_level1_original.txt:Level1每类选择10个真实故障，共70个（原始的）.
+2.train_data10_level1_normalization.txt:Level1每类选择10个真实故障，共70个（归一化后的）.
+3。train_labels10.txt:每类选择10个真实故障对应的标签，同一类不同level标签相同，不必区分level.
+3.CWGAN_data10:利用每类10个真实故障（共70个）生成的10500个生成故障。（随着level改变而改变，可以优化，加个level,即CWGAN_data10_level1。
+4.CWAGN_data10_Level1SelectedData_Ensemble.txt:利用level1每类10个真实故障（共70个）生成的10500个生成故障后，利用Ensemble算法从中挑选出来的7000个高质量生成样本.
+5.NormaldataLevel1total-3500.txt：使用的level1正常样本的数量共3500个.
