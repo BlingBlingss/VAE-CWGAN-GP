@@ -1,7 +1,240 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ebc5294-c1c7-47e6-9a71-45f1f097ead0" name="Default Changelist" comment="" />
+    <list default="true" id="4ebc5294-c1c7-47e6-9a71-45f1f097ead0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/option.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CWGAN.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CWGAN.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CWGAN_Resnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CWGAN_data10_level1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CWGAN_data10_level2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CWGAN_data10_level3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CWGAN_data10_level4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CWGAN_data20_level1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CWGAN_data20_level2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CWGAN_data20_level3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CWGAN_data20_level4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CWGAN_data30_level1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CWGAN_data30_level2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CWGAN_data30_level3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CWGAN_data30_level4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CWGAN_data40_level1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CWGAN_data40_level2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CWGAN_data40_level3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CWGAN_data40_level4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CWGAN_data5_level1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CWGAN_data5_level2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CWGAN_data5_level3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CWGAN_new.py" beforeDir="false" afterPath="$PROJECT_DIR$/CWGAN_new.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Detection_Ensemble.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Detection_original.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Detection_vae_od.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Diagnosis_Ensemble.py" beforeDir="false" afterPath="$PROJECT_DIR$/Diagnosis_Ensemble.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Diagnosis_original.py" beforeDir="false" afterPath="$PROJECT_DIR$/Diagnosis_original.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Diagnosis_vae_od.py" beforeDir="false" afterPath="$PROJECT_DIR$/Diagnosis_vae_od.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ensemble_evaluation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Normal.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data10_Level1SelectedData_Ensemble.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data10_Level1SelectedData_vae_od.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data10_Level2SelectedData_Ensemble.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data10_Level2SelectedData_vae_od.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data10_Level3SelectedData_Ensemble.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data10_Level3SelectedData_vae_od.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data10_Level4SelectedData_Ensemble.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data10_Level4SelectedData_vae_od.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data20_Level1SelectedData_Ensemble.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data20_Level1SelectedData_vae_od.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data20_Level2SelectedData_Ensemble.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data20_Level2SelectedData_vae_od.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data20_Level3SelectedData_Ensemble.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data20_Level3SelectedData_vae_od.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data20_Level4SelectedData_Ensemble.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data20_Level4SelectedData_vae_od.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data30_Level1SelectedData_Ensemble.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data30_Level1SelectedData_vae_od.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data30_Level2SelectedData_Ensemble.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data30_Level2SelectedData_vae_od.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data30_Level3SelectedData_Ensemble.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data30_Level3SelectedData_vae_od.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data30_Level4SelectedData_Ensemble.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data30_Level4SelectedData_vae_od.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data40_Level1SelectedData_Ensemble.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data40_Level1SelectedData_vae_od.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data40_Level2SelectedData_Ensemble.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data40_Level2SelectedData_vae_od.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data40_Level3SelectedData_Ensemble.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data40_Level3SelectedData_vae_od.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data40_Level4SelectedData_Ensemble.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data40_Level4SelectedData_vae_od.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data5_Level1SelectedData_Ensemble.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data5_Level1SelectedData_vae_od.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data5_Level2SelectedData_Ensemble.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data5_Level2SelectedData_vae_od.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data5_Level3SelectedData_Ensemble.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/CWGAN_data5_Level3SelectedData_vae_od.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/RealFaultLabeltotal-3500.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/RealFaultdataLevel1total-3500.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/RealFaultdataLevel2total-3500.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/RealFaultdataLevel3total-3500.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/RealFaultdataLevel4total-3500.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/data_cGAN_train_hist.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_results/data_cGAN_train_hist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labels1500.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_10Level1_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_10Level1_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_10Level2_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_10Level2_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_10Level3_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_10Level3_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_10Level4_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_10Level4_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_20Level1_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_20Level1_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_20Level2_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_20Level2_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_20Level3_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_20Level3_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_20Level4_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_20Level4_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_30Level1_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_30Level1_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_30Level2_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_30Level2_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_30Level3_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_30Level3_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_30Level4_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_30Level4_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_40Level1_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_40Level1_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_40Level2_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_40Level2_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_40Level3_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_40Level3_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_40Level4_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_40Level4_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_50Level1_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_50Level1_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_50Level2_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_50Level2_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_50Level3_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_50Level3_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_50Level4_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_50Level4_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_5Level1_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_5Level1_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_5Level2_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_5Level2_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_5Level3_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_5Level3_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_5Level4_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Detection_5Level4_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_10Level1_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_10Level1_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_10Level2_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_10Level2_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_10Level3_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_10Level3_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_10Level4_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_10Level4_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_20Level1_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_20Level1_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_20Level2_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_20Level2_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_20Level3_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_20Level3_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_20Level4_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_20Level4_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_30Level1_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_30Level1_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_30Level2_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_30Level2_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_30Level3_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_30Level3_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_30Level4_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_30Level4_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_40Level1_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_40Level1_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_40Level2_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_40Level2_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_40Level3_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_40Level3_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_40Level4_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_40Level4_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_50Level1_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_50Level1_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_50Level2_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_50Level2_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_50Level3_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_50Level3_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_50Level4_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_50Level4_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_5Level1_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_5Level1_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_5Level2_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_5Level2_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_5Level3_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_5Level3_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_5Level4_Accuracy_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_result/Diagnosis_5Level4_f1_score_result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data10_level1_normalization.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data10_level1_original.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data10_level2_normalization.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data10_level2_original.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data10_level3_normalization.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data10_level3_original.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data10_level4_normalization.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data10_level4_original.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data20_level1_normalization.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data20_level1_original.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data20_level2_normalization.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data20_level2_original.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data20_level3_normalization.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data20_level3_original.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data20_level4_normalization.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data20_level4_original.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data30_level1_normalization.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data30_level1_original.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data30_level2_normalization.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data30_level2_original.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data30_level3_normalization.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data30_level3_original.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data30_level4_normalization.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data30_level4_original.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data40_level1_normalization.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data40_level1_original.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data40_level2_normalization.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data40_level2_original.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data40_level3_normalization.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data40_level3_original.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data40_level4_normalization.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data40_level4_original.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data50_level1_normalization.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data50_level1_original.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data50_level2_normalization.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data50_level2_original.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data50_level3_normalization.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data50_level3_original.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data50_level4_normalization.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data50_level4_original.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data5_level1_normalization.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data5_level1_original.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data5_level2_normalization.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data5_level2_original.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data5_level3_normalization.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data5_level3_original.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_labels10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_labels20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_labels30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_labels40.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_labels5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_labels50.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/txt文件说明.txt" beforeDir="false" afterPath="$PROJECT_DIR$/txt文件说明.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,26 +361,78 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1105533928">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="pkl" value="1" />
+          <entry key="png" value="1" />
+          <entry key="py" value="9" />
+          <entry key="txt" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="1" />
+          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="Python" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="180" />
+          <entry key="txt" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="Python" value="180" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="CWGAN" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="42">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
+        <entry file="file://$PROJECT_DIR$/CWGAN_new.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="147">
+              <caret line="19" selection-start-line="19" selection-end-line="21" selection-end-column="32" />
+              <folding>
+                <element signature="e#87#110#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/option.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <marker date="1594492124016" expanded="true" signature="16:58" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,22 +440,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Diagnosis_vae_od.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1932">
-              <caret line="105" column="37" selection-start-line="105" selection-start-column="37" selection-end-line="105" selection-end-column="37" />
+            <state relative-caret-position="231">
+              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
               <folding>
-                <element signature="e#453#466#0" expanded="true" />
+                <element signature="e#241#254#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Detection_original.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Diagnosis_original.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="261">
+              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
               <folding>
-                <element signature="e#124#142#0" expanded="true" />
+                <element signature="e#87#105#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Diagnosis_Ensemble.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+              <folding>
+                <element signature="e#87#105#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -199,16 +496,23 @@
       <find>.txt</find>
       <find>0.8323200904849427</find>
       <find>0.943653</find>
+      <find>RealFaultdataLevel1total-3500</find>
+      <find>RealFaultLabeltotal-3500</find>
+      <find>train_data5_level1_original</find>
+      <find>b</find>
+      <find>Level</find>
+      <find>RealFaultdataLevel</find>
     </findStrings>
     <replaceStrings>
       <replace>test_label</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/temp_result/Diagnosis_40Level3_Accuracy_result.txt" />
-        <option value="$PROJECT_DIR$/temp_result/Diagnosis_40Level3_f1_score_result.txt" />
         <option value="$PROJECT_DIR$/temp_result/Detection_40Level4_f1_score_result.txt" />
         <option value="$PROJECT_DIR$/temp_result/Diagnosis_40Level4_Accuracy_result.txt" />
         <option value="$PROJECT_DIR$/temp_result/Diagnosis_40Level4_f1_score_result.txt" />
@@ -225,12 +529,8 @@
         <option value="$PROJECT_DIR$/temp_result/Diagnosis_10Level3_f1_score_result.txt" />
         <option value="$PROJECT_DIR$/temp_result/Diagnosis_5Level2_Accuracy_result.txt" />
         <option value="$PROJECT_DIR$/temp_result/Diagnosis_5Level2_f1_score_result.txt" />
-        <option value="$PROJECT_DIR$/Diagnosis_original.py" />
-        <option value="$PROJECT_DIR$/CWGAN_new.py" />
-        <option value="$PROJECT_DIR$/Diagnosis_Ensemble.py" />
         <option value="$PROJECT_DIR$/Detection_Ensemble.py" />
         <option value="$PROJECT_DIR$/Detection_vae_od.py" />
-        <option value="$PROJECT_DIR$/Main.py" />
         <option value="$PROJECT_DIR$/Detection_original.py" />
         <option value="$PROJECT_DIR$/temp_result/Detection_50Level3_Accuracy_result.txt" />
         <option value="$PROJECT_DIR$/temp_result/Detection_50Level3_f1_score_result.txt" />
@@ -254,24 +554,42 @@
         <option value="$PROJECT_DIR$/temp_result/Detection_30Level3_f1_score_result.txt" />
         <option value="$PROJECT_DIR$/temp_result/Detection_20Level1_Accuracy_result.txt" />
         <option value="$PROJECT_DIR$/temp_result/Detection_20Level1_f1_score_result.txt" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/temp_result/Detection_5Level1_Accuracy_result.txt" />
         <option value="$PROJECT_DIR$/temp_result/Detection_5Level1_f1_score_result.txt" />
+        <option value="$PROJECT_DIR$/txt文件说明.txt" />
+        <option value="$PROJECT_DIR$/Main.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/option.py" />
+        <option value="$PROJECT_DIR$/CWGAN_new.py" />
         <option value="$PROJECT_DIR$/Diagnosis_vae_od.py" />
+        <option value="$PROJECT_DIR$/Diagnosis_original.py" />
+        <option value="$PROJECT_DIR$/Diagnosis_Ensemble.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="105" />
-    <option name="y" value="-30" />
-    <option name="width" value="1425" />
-    <option name="height" value="1040" />
+    <option name="x" value="-118" />
+    <option name="y" value="228" />
+    <option name="width" value="980" />
+    <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="CWGAN" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -293,21 +611,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="CWGAN" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="E:/Pycharm Project/ganomaly-master" />
+    <property name="last_opened_file_path" value="E:/我的研究生/Chillier项目 - MrSu/After" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="ReadonlyStatusHandler">
@@ -333,8 +640,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Diagnosis_vae_od">
-    <configuration name="Diagnosis_Ensemble" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Main">
+    <configuration name="CWGAN_new" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CWGAN" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -346,7 +653,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Diagnosis_Ensemble.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CWGAN_new.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -418,7 +725,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="option" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CWGAN" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -430,7 +737,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/option.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -441,18 +748,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.Main" />
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.Diagnosis_original" />
-      <item itemvalue="Python.Diagnosis_Ensemble" />
       <item itemvalue="Python.Diagnosis_vae_od" />
+      <item itemvalue="Python.option" />
+      <item itemvalue="Python.CWGAN_new" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Diagnosis_vae_od" />
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.Main" />
-        <item itemvalue="Python.Diagnosis_Ensemble" />
+        <item itemvalue="Python.CWGAN_new" />
+        <item itemvalue="Python.option" />
         <item itemvalue="Python.Diagnosis_original" />
+        <item itemvalue="Python.Diagnosis_vae_od" />
       </list>
     </recent_temporary>
   </component>
@@ -485,14 +792,14 @@
       <window_info id="Structure" order="1" sideWeight="0.50292397" side_tool="true" weight="0.20607662" />
       <window_info id="Favorites" order="2" sideWeight="0.50097466" side_tool="true" weight="0.20607662" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" x="17" y="144" width="1514" height="462" id="Run" order="2" visible="true" weight="0.26099706" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3976261" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.18649046" />
+      <window_info anchor="bottom" x="17" y="144" width="1514" height="462" id="Run" order="2" weight="0.36563876" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39647576" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32991204" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.18061674" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32892805" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -519,299 +826,63 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/temp_result/Detection_5Level3_Accuracy_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Diagnosis_30Level1_f1_score_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="132" selection-start-line="5" selection-start-column="132" selection-end-line="5" selection-end-column="132" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Diagnosis_30Level1_Accuracy_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="130" selection-start-line="5" selection-start-column="130" selection-end-line="5" selection-end-column="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Detection_5Level4_Accuracy_result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Diagnosis_10Level3_Accuracy_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Diagnosis_10Level3_f1_score_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Diagnosis_5Level1_Accuracy_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Detection_5Level2_f1_score_result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Diagnosis_5Level3_Accuracy_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Detection_5Level2_Accuracy_result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Diagnosis_5Level1_f1_score_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Diagnosis_5Level2_Accuracy_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Diagnosis_5Level2_f1_score_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Detection_vae_od.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Detection_Ensemble.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Diagnosis_Ensemble.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Diagnosis_original.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CWGAN_new.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Diagnosis_50Level3_Accuracy_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Detection_50Level3_Accuracy_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="96" selection-start-line="5" selection-start-column="96" selection-end-line="5" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Detection_50Level3_f1_score_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="98" selection-start-line="5" selection-start-column="98" selection-end-line="5" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Detection_50Level4_Accuracy_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="100" selection-start-line="5" selection-start-column="100" selection-end-line="5" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Detection_50Level4_f1_score_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="101" selection-start-line="2" selection-start-column="101" selection-end-line="2" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Detection_40Level1_f1_score_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="102" selection-start-line="5" selection-start-column="102" selection-end-line="5" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Detection_40Level1_Accuracy_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="99" selection-start-line="5" selection-start-column="99" selection-end-line="5" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Detection_40Level3_Accuracy_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="100" selection-start-line="5" selection-start-column="100" selection-end-line="5" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Detection_40Level3_f1_score_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="99" selection-start-line="8" selection-start-column="99" selection-end-line="8" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Detection_30Level4_Accuracy_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Detection_30Level4_f1_score_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Detection_20Level3_Accuracy_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="99" selection-start-line="2" selection-start-column="99" selection-end-line="2" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Detection_20Level3_f1_score_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="85" selection-start-line="2" selection-start-column="85" selection-end-line="2" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Detection_20Level4_Accuracy_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Detection_20Level4_f1_score_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Detection_10Level2_f1_score_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Detection_10Level2_Accuracy_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Detection_30Level1_Accuracy_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="99" selection-start-line="5" selection-start-column="99" selection-end-line="5" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Detection_30Level1_f1_score_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="100" selection-start-line="5" selection-start-column="100" selection-end-line="5" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Detection_30Level3_f1_score_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="100" selection-start-line="2" selection-start-column="100" selection-end-line="2" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Detection_30Level3_Accuracy_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="98" lean-forward="true" selection-start-line="2" selection-start-column="98" selection-end-line="2" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Detection_20Level1_f1_score_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="98" selection-start-line="5" selection-start-column="98" selection-end-line="5" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Detection_20Level1_Accuracy_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="100" selection-start-line="5" selection-start-column="100" selection-end-line="5" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Detection_5Level1_f1_score_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="100" selection-start-line="5" selection-start-column="100" selection-end-line="5" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp_result/Detection_5Level1_Accuracy_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="99" selection-start-line="5" selection-start-column="99" selection-end-line="5" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/temp_result/Diagnosis_5Level2_f1_score_result.txt" />
+    <entry file="file://$PROJECT_DIR$/Detection_vae_od.py" />
+    <entry file="file://$PROJECT_DIR$/Detection_Ensemble.py" />
+    <entry file="file://$PROJECT_DIR$/temp_result/Diagnosis_50Level3_Accuracy_result.txt" />
+    <entry file="file://$PROJECT_DIR$/temp_result/Detection_50Level3_Accuracy_result.txt" />
+    <entry file="file://$PROJECT_DIR$/temp_result/Detection_50Level3_f1_score_result.txt" />
+    <entry file="file://$PROJECT_DIR$/temp_result/Detection_50Level4_Accuracy_result.txt" />
+    <entry file="file://$PROJECT_DIR$/temp_result/Detection_50Level4_f1_score_result.txt" />
+    <entry file="file://$PROJECT_DIR$/temp_result/Detection_40Level1_f1_score_result.txt" />
+    <entry file="file://$PROJECT_DIR$/temp_result/Detection_40Level1_Accuracy_result.txt" />
+    <entry file="file://$PROJECT_DIR$/temp_result/Detection_40Level3_Accuracy_result.txt" />
+    <entry file="file://$PROJECT_DIR$/temp_result/Detection_40Level3_f1_score_result.txt" />
+    <entry file="file://$PROJECT_DIR$/temp_result/Detection_30Level4_Accuracy_result.txt" />
+    <entry file="file://$PROJECT_DIR$/temp_result/Detection_30Level4_f1_score_result.txt" />
+    <entry file="file://$PROJECT_DIR$/temp_result/Detection_20Level3_Accuracy_result.txt" />
+    <entry file="file://$PROJECT_DIR$/temp_result/Detection_20Level3_f1_score_result.txt" />
+    <entry file="file://$PROJECT_DIR$/temp_result/Detection_20Level4_Accuracy_result.txt" />
+    <entry file="file://$PROJECT_DIR$/temp_result/Detection_20Level4_f1_score_result.txt" />
+    <entry file="file://$PROJECT_DIR$/temp_result/Detection_10Level2_f1_score_result.txt" />
+    <entry file="file://$PROJECT_DIR$/temp_result/Detection_10Level2_Accuracy_result.txt" />
+    <entry file="file://$PROJECT_DIR$/temp_result/Detection_30Level1_Accuracy_result.txt" />
+    <entry file="file://$PROJECT_DIR$/temp_result/Detection_30Level1_f1_score_result.txt" />
+    <entry file="file://$PROJECT_DIR$/temp_result/Detection_30Level3_f1_score_result.txt" />
+    <entry file="file://$PROJECT_DIR$/temp_result/Detection_30Level3_Accuracy_result.txt" />
+    <entry file="file://$PROJECT_DIR$/temp_result/Detection_20Level1_f1_score_result.txt" />
+    <entry file="file://$PROJECT_DIR$/temp_result/Detection_20Level1_Accuracy_result.txt" />
+    <entry file="file://$PROJECT_DIR$/temp_result/Detection_5Level1_f1_score_result.txt" />
     <entry file="file://E:/Pycharm Project/TensorFlow-VAE-GAN-DRAW-master/vae.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-252" />
@@ -823,42 +894,105 @@
     <entry file="file://E:/Pycharm Project/Anomaly detection/pyod-master/examples/abod_example.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_results/CWGAN_data5_Level1SelectedData_Ensemble.txt">
+    <entry file="file://$PROJECT_DIR$/Detection_original.py" />
+    <entry file="file://$PROJECT_DIR$/temp_result/Detection_5Level1_Accuracy_result.txt" />
+    <entry file="file://$PROJECT_DIR$/train_labels5.txt" />
+    <entry file="file://$PROJECT_DIR$/train_labels10.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-693" />
+        <state relative-caret-position="-941" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
+    <entry file="file://$PROJECT_DIR$/data_results/CWGAN_data40_Level3SelectedData_Ensemble.txt" />
+    <entry file="file://$PROJECT_DIR$/data_results/CWGAN_data5_Level1SelectedData_Ensemble.txt" />
+    <entry file="file://$PROJECT_DIR$/data_results/CWGAN_data40_Level1SelectedData_Ensemble.txt" />
+    <entry file="file://$PROJECT_DIR$/data_results/data_cGAN_train_hist.pkl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_results/data_cGAN_train_hist.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_results/RealFaultlabeltotal-3500.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="-1134" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_data5_level1_original.txt" />
+    <entry file="file://$PROJECT_DIR$/labels1500.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="10492" column="24" lean-forward="true" selection-start-line="10492" selection-start-column="24" selection-end-line="10492" selection-end-column="24" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/txt文件说明.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ensemble_evaluation.py" />
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Diagnosis_Ensemble.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding>
+            <element signature="e#87#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Diagnosis_original.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+          <folding>
+            <element signature="e#87#105#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Diagnosis_vae_od.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1932">
-          <caret line="105" column="37" selection-start-line="105" selection-start-column="37" selection-end-line="105" selection-end-column="37" />
+        <state relative-caret-position="231">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
           <folding>
-            <element signature="e#453#466#0" expanded="true" />
+            <element signature="e#241#254#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Detection_original.py">
+    <entry file="file://$PROJECT_DIR$/option.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
-            <element signature="e#124#142#0" expanded="true" />
+            <marker date="1594492124016" expanded="true" signature="16:58" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CWGAN_new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="19" selection-start-line="19" selection-end-line="21" selection-end-column="32" />
+          <folding>
+            <element signature="e#87#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
